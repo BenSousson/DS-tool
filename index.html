@@ -27,14 +27,27 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            text-decoration: none; /* Supprimer le soulignement du lien */
+            display: inline-block; /* Afficher comme bloc */
+            margin-bottom: 10px; /* Marge inférieure pour espacer les boutons */
+        }
+        .button:hover {
+            background-color: #0056b3; /* Changement de couleur au survol */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Téléchargez votre application</h1>
-        <p>Cliquez sur le bouton ci-dessous pour télécharger l'application.</p>
-        <a href="https://www.dropbox.com/scl/fi/sa98bbtkvk9jqlrcnei4x/ExtractCodeHTML.exe?rlkey=ha0ij5rgtbztlpesxy1t6l29u&st=43z08k24&dl=1" download>
+        <p>Cliquez sur les boutons ci-dessous pour télécharger l'application.</p>
+
+        <!-- Premier bouton et lien -->
+        <a href="https://www.dropbox.com/scl/fi/to88ocdatz3hg6lw39y4q/ExtractCodeHTML_setup.exe?rlkey=tfwwevd1rm5znrt6kjnjtfdqk&st=gkal5r2f&dl=1" download>
+            <button class="button">Télécharger le setup</button>
+        </a>
+
+        <!-- Deuxième bouton et lien -->
+        <a href="https://www.dropbox.com/scl/fi/sa98bbtkvk9jqlrcnei4x/ExtractCodeHTML_v2_setup.exe?rlkey=ha0ij5rgtbztlpesxy1t6l29u&st=43z08k24&dl=1" download>
             <button class="button">Télécharger l'Application</button>
         </a>
     </div>
